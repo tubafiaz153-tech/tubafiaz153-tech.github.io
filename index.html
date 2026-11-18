@@ -29,8 +29,7 @@ header{position:sticky;top:0;z-index:10;background:rgba(9,13,19,.88);backdrop-fi
 .search:focus{border-color:var(--accent)}
 .menu-btn{display:none;border:1px solid var(--line);background:var(--panel);color:white;border-radius:10px;padding:9px 12px}
 .hero{padding:58px 0 34px}
-.hero-grid{display:grid;grid-template-columns:1.18fr .82fr;gap:22px}
-.hero-main{min-height:420px;border:1px solid var(--line);border-radius:28px;padding:38px;position:relative;overflow:hidden;background:linear-gradient(110deg,rgba(9,13,19,.96) 4%,rgba(9,13,19,.78) 56%,rgba(9,13,19,.30)),radial-gradient(circle at 82% 42%,rgba(255,77,50,.48),transparent 35%),linear-gradient(135deg,#263444,#111923 55%,#421b1b);box-shadow:var(--shadow);display:flex;flex-direction:column;justify-content:flex-end}
+c28px;padding:38px;position:relative;overflow:hidden;background:linear-gradient(110deg,rgba(9,13,19,.96) 4%,rgba(9,13,19,.78) 56%,rgba(9,13,19,.30)),radial-gradient(circle at 82% 42%,rgba(255,77,50,.48),transparent 35%),linear-gradient(135deg,#263444,#111923 55%,#421b1b);box-shadow:var(--shadow);display:flex;flex-direction:column;justify-content:flex-end}
 .hero-main:after{content:"";position:absolute;width:340px;height:150px;right:-20px;top:72px;border:18px solid rgba(255,255,255,.08);border-left-color:transparent;border-right-color:transparent;border-radius:50%;transform:rotate(-18deg);filter:blur(1px)}
 .eyebrow{display:inline-flex;align-items:center;gap:8px;text-transform:uppercase;letter-spacing:.14em;font-size:.72rem;font-weight:800;color:var(--accent2)}
 .dot{width:7px;height:7px;border-radius:50%;background:var(--accent);box-shadow:0 0 12px var(--accent)}
@@ -151,6 +150,15 @@ footer{border-top:1px solid var(--line);padding:30px 0 42px;color:var(--muted);f
       <button class="filter" data-filter="tech">Tech & launches</button>
     </div>
     <div class="news-grid" id="newsGrid">
+       <article class="news-card" data-category="cars" data-search="2026 BMW M5 luxury performance hybrid">
+        <div class="card-art art-car"><span>🏎️</span></div>
+        <div class="card-body">
+          <div class="card-top"><span class="tag">Cars · BMW</span><span class="date">New Article</span></div>
+          <h3>2026 BMW M5: Where Performance Meets Luxury</h3>
+          <p>Discover the design, performance, hybrid technology and luxury features of the latest BMW M5.</p>
+          <a class="read-more" href="bmw-m5-2026.html">Read Article <span>→</span></a>
+        </div>
+      </article>
       <article class="news-card" data-category="cars" data-search="bmw m performance cars engineering design">
         <div class="card-art art-car"><span>🚘</span></div><div class="card-body">
           <div class="card-top"><span class="tag">Cars · BMW</span><span class="date">Feature</span></div>
